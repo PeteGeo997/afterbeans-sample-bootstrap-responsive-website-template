@@ -1,8 +1,4 @@
-/*
-Author URI: http://webthemez.com/
-Note: 
-Licence under Creative Commons Attribution 3.0 
--------------------------------------------------------*/
+
 
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
@@ -214,13 +210,19 @@ p {
 .top_cont_outer {
     background: #bb0808;
     position: relative;
-	background:url(../img/coffee_cover.jpg) top center no-repeat;
+	background:url(../img/Hero-Section-1920-800.png) top center no-repeat;
 	/* height:650px; */
 }
 
 .hero_section {
     position: relative;
     /* padding-top: 100px; */
+}
+
+.row {
+    display:block;
+    margin-right: -115px;
+    margin-left: -40px
 }
 
 .white_pad {
@@ -257,7 +259,7 @@ p {
 }
 
 .top_left_cont h2 strong {
-    font-weight: 700;
+    font-weight: 1000;
 	color:#bb0808;
 }
 
@@ -317,7 +319,7 @@ a.read_more:hover {
 ---------------------------------*/
 
 #service {
-    padding: 60px 0px;
+    padding: 100px 0px;
     background: #000;
 }
 #service h2{
@@ -477,7 +479,7 @@ a.contact_btn:hover {
 
 
 #Portfolio {
-    padding: 60px 0px;
+    padding: 100px 0px;
 }
 
 .Portfolio-nav {
@@ -563,7 +565,7 @@ img {
 }
 
 .page_section.paddind {
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
 }
 
 
@@ -572,7 +574,7 @@ img {
 
 
 
-#clients {
+/* #clients {
     padding: 60px 0px;
 }
 
@@ -621,7 +623,7 @@ img {
     display: block;
     font-size: 16px;
     color: #888888;
-}
+} */
 
 /* Clients
 ---------------------------------*/
@@ -971,15 +973,15 @@ margin-bottom: 5px;
 
 .social_links li {
     float: left;
-    margin-right: 4px;
+    margin-right: 20px;
 }
 
 .social_links li a {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     font-size: 25px;
     color: #fff;
 }
@@ -989,28 +991,37 @@ margin-bottom: 5px;
     border-radius: 80px;
 }
 
-.twitter a:hover {
-    color: #55acee;
+.shopee a:hover {
+    background-color: #f90a0a;
+    font-size: 40px;
+    border-style: ridge;
 }
 
 .facebook a:hover {
-    color: #3b5998;
+    background-color: #3b5998;
+    font-size: 40px;
+    border-style: ridge;
 }
 
-.pinterest a:hover {
-    color: #cb2026;
+.zalo a:hover {
+    background-color: #0068ff;
+    font-size: 40px;
+    border-style: ridge;
 }
 
-.gplus a:hover {
-    color: #dd4b39;
-}
- 
-
-.form {
-    margin: 0 66px 0 30px;
+.Insta a:hover {
+    background-color: #e38939;
+    font-size: 30px;
+    border-style: ridge;
 }
 
-.input-text {
+.Youtube a:hover {
+    background-color: #cd201f;
+    font-size: 30px;
+    border-style: ridge;
+}
+
+/* .input-text {
     padding: 15px 16px;
     border: 1px solid #ccc;
     width: 100%;
@@ -1059,7 +1070,7 @@ margin-bottom: 5px;
 .input-btn:hover {
     background: #fff;
     color: #222;
-}
+} */
 
 /* Footer
 ---------------------------------*/
@@ -1816,9 +1827,12 @@ div.mc-image {
     margin-bottom: 20px;
     margin-left: 0px;
   }
+  .cardText {
+    width: fit-content;
+  }
   
   .cardImg {
-    width: 140px;
+    width: 100px;
     height: 105px;
   }
   
