@@ -210,13 +210,19 @@ p {
 .top_cont_outer {
     background: #bb0808;
     position: relative;
-	background:url(../img/coffee_cover.jpg) top center no-repeat;
+	background:url(../img/Hero-Section-1920-800.png) top center no-repeat;
 	/* height:650px; */
 }
 
 .hero_section {
     position: relative;
     /* padding-top: 100px; */
+}
+
+.row {
+    display:block;
+    margin-right: -115px;
+    margin-left: -40px
 }
 
 .white_pad {
@@ -253,7 +259,7 @@ p {
 }
 
 .top_left_cont h2 strong {
-    font-weight: 700;
+    font-weight: 1000;
 	color:#bb0808;
 }
 
@@ -1000,6 +1006,18 @@ margin-bottom: 5px;
 .zalo a:hover {
     background-color: #0068ff;
     font-size: 40px;
+    border-style: ridge;
+}
+
+.Insta a:hover {
+    background-color: #e38939;
+    font-size: 30px;
+    border-style: ridge;
+}
+
+.Youtube a:hover {
+    background-color: #cd201f;
+    font-size: 30px;
     border-style: ridge;
 }
 
