@@ -220,12 +220,6 @@ p {
     /* padding-top: 100px; */
 }
 
-.row {
-    display:block;
-    margin-right: -115px;
-    margin-left: -40px
-}
-
 .white_pad {
     position: relative;
     right: 0px;
