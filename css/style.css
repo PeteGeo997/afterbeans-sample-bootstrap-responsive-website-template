@@ -59,7 +59,7 @@ body {
 h2 {
     font-size: 45px;
     color: #222222;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     margin: 0px 0 25px 0;
     text-align: center;
@@ -93,7 +93,8 @@ p {
 
 #header_wrapper {
     background: #000;
-    padding: 20px 0px; 
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    /* padding: 20px 0px;  */
 }
 
 .header_box {
@@ -342,8 +343,8 @@ a.read_more:hover {
 }
 
 .service_icon {  
-  width: 80%;
-height: 144px;
+    width: 80%;
+    height: 144px;
     margin: 0px auto 25px; 
 }
 
@@ -370,11 +371,11 @@ text-align: center;
 }
 
 .service_block h3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 25px;
     color: #fff;
-margin: 35px 0 15px; 
+    margin: 35px 0 15px; 
 }
 
 .service_block p {
@@ -456,12 +457,12 @@ a.contact_btn {
     font-size: 16px;
     color: #bb0808;
     border-radius: 3px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     border: 2px solid #bb0808;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
+    /* transition: all 0.2s ease-in-out; */
+    /* -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out; */
 }
 
 a.contact_btn:hover {
@@ -1780,7 +1781,7 @@ div.mc-image {
   
   .mainImg {
     width: 100%;
-    height: 900px;
+    /* height: 900px; */
     object-fit: cover;
   }
   
@@ -1832,15 +1833,15 @@ div.mc-image {
   }
   
   .cardImg {
-    width: 100px;
+    /* width: 100px; */
     height: 105px;
   }
   
   .cardImgContainer {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    /* padding-bottom: 20px;
+    padding-left: 20px; */
     border-top-width: 1px;
     border-right-width: 1px;
     border-bottom-width: 1px;
@@ -1863,7 +1864,7 @@ div.mc-image {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-top: 0px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     margin-bottom: 0px;
     margin-left: 0px;
   }
