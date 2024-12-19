@@ -49,7 +49,7 @@ a, a:hover, a:active {
 ---------------------------------*/
 body {
     background: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     font-weight: normal;
     color: #888888;
@@ -59,7 +59,7 @@ body {
 h2 {
     font-size: 45px;
     color: #222222;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: normal;
     margin: 0px 0 25px 0;
     text-align: center;
@@ -67,7 +67,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     color: #222222;
     font-size: 18px;
@@ -77,7 +77,7 @@ h3 {
 h6 {
     font-size: 16px;
     color: #888888;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     text-align: center;
     margin: 0 0 60px 0;
@@ -87,7 +87,9 @@ p {
     line-height: 24px;
     margin: 0;
 }
-
+h2,h3,h4,h5,h6{
+    font-family: "Quicksand",sans-serif,;
+}
 /* Header Styles
 ---------------------------------*/
 
@@ -98,12 +100,15 @@ p {
 }
 
 .header_box {
+    align-items: center;
+    justify-content: space-between;
     position: relative;
 }
 
 .logo {
     float: left;
-    margin-top: 8px;
+    margin-top: -8px;
+    margin-right: 10px;
 	position: relative;
 	z-index: 2;
 }
@@ -124,6 +129,7 @@ p {
     border: 0px solid #fff;
     min-height: 40px;
     margin-bottom: 0px;
+    align-items: center;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -145,7 +151,7 @@ p {
 }
 
 .navStyle ul li:first-child {
-	/*margin:0px;*/;
+	/*margin:0px;*/
 }
 
 .navStyle ul li:last-child {
@@ -218,6 +224,7 @@ p {
 .hero_section {
     position: relative;
     /* padding-top: 100px; */
+    height: 100%;
 }
 
 .white_pad {
@@ -234,6 +241,18 @@ p {
 
 .top_left_cont {
     padding: 110px 0;
+    text-align: center;
+
+}
+@media (max-width:768px){
+    .top_left_cont{
+        position: relative;
+        top: 40%;
+        left:30%;
+        transform: translate(-30%,-8%);
+        
+        padding: 110px 0
+    }
 }
 
 .top_left_cont h3 {
