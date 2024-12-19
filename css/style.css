@@ -100,14 +100,15 @@ h2,h3,h4,h5,h6{
 }
 
 .header_box {
-    display:flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .logo {
     float: left;
-    margin-top: 0px;
+    margin-top: -8px;
+    margin-right: 10px;
 	position: relative;
 	z-index: 2;
 }
@@ -128,6 +129,7 @@ h2,h3,h4,h5,h6{
     border: 0px solid #fff;
     min-height: 40px;
     margin-bottom: 0px;
+    align-items: center;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -149,7 +151,7 @@ h2,h3,h4,h5,h6{
 }
 
 .navStyle ul li:first-child {
-	/*margin:0px;*/;
+	/*margin:0px;*/
 }
 
 .navStyle ul li:last-child {
