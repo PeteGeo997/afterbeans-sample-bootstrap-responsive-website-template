@@ -86,6 +86,7 @@ h6 {
 p {
     line-height: 24px;
     margin: 0;
+    color: black;
 }
 h2,h3,h4,h5,h6{
     font-family: "Quicksand",sans-serif,;
@@ -478,6 +479,19 @@ a.contact_btn {
     -webkit-transition: all 0.2s ease-in-out; */
 }
 
+a.btn.btn-primary:hover {
+    background-color: #800000;
+}
+
+a.btn.btn-primary:focus {
+    background-color: #800000;
+}
+
+a.btn.btn-primary.disabled {
+    background-color: #646262;
+    border-color: #646262;
+}
+
 a.contact_btn:hover {
     background: #bb0808;
     color: #fff;
@@ -582,6 +596,24 @@ img {
 .page_section.paddind {
     /* padding-bottom: 60px; */
 }
+
+/* Slide Slicker*/
+/* .read-more-btn {
+    color:#fff;
+    cursor: pointer;
+    background-color: #c3443b;
+    padding: 3px 13px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.read-more-text {
+    display: none;
+}
+
+.read-more-text--show{
+    display: inline;
+} */
 
 
 /* Happy Clients
