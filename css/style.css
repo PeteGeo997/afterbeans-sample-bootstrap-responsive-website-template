@@ -479,6 +479,19 @@ a.contact_btn {
     -webkit-transition: all 0.2s ease-in-out; */
 }
 
+a.btn.btn-primary:hover {
+    background-color: #800000;
+}
+
+a.btn.btn-primary:focus {
+    background-color: #800000;
+}
+
+a.btn.btn-primary.disabled {
+    background-color: #646262;
+    border-color: #646262;
+}
+
 a.contact_btn:hover {
     background: #bb0808;
     color: #fff;
